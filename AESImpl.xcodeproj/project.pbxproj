@@ -13,9 +13,28 @@
 		FF1268D2243EA4F500AAACE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1268D0243EA4F500AAACE5 /* Main.storyboard */; };
 		FF1268D4243EA4F700AAACE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF1268D3243EA4F700AAACE5 /* Assets.xcassets */; };
 		FF1268D7243EA4F700AAACE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF1268D5243EA4F700AAACE5 /* LaunchScreen.storyboard */; };
+		FF1268DF243F043300AAACE5 /* AESImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF1268DE243F043300AAACE5 /* AESImpl.swift */; };
+		FFC5EB5A244415A400A975B8 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5EB59244415A400A975B8 /* Matrix.swift */; };
+		FFC5EB5C2444171100A975B8 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC5EB5B2444171100A975B8 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF0C675224A085A0008A0D16 /* aes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = aes.c; sourceTree = "<group>"; };
+		FF0C675324A085A0008A0D16 /* aes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = aes.hpp; sourceTree = "<group>"; };
+		FF0C675424A085A0008A0D16 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		FF0C675524A085A0008A0D16 /* tiny-AES-c-master.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "tiny-AES-c-master.xcodeproj"; sourceTree = "<group>"; };
+		FF0C675824A085A0008A0D16 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		FF0C675924A085A0008A0D16 /* test.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = test.cpp; sourceTree = "<group>"; };
+		FF0C675A24A085A0008A0D16 /* conanfile.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = conanfile.py; sourceTree = "<group>"; };
+		FF0C675B24A085A0008A0D16 /* unlicense.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = unlicense.txt; sourceTree = "<group>"; };
+		FF0C675C24A085A0008A0D16 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FF0C675D24A085A0008A0D16 /* library.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = library.json; sourceTree = "<group>"; };
+		FF0C675E24A085A0008A0D16 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		FF0C675F24A085A0008A0D16 /* aes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		FF0C676124A085A0008A0D16 /* CMakeLists.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		FF0C676224A085A0008A0D16 /* conanfile.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = conanfile.py; sourceTree = "<group>"; };
+		FF0C676324A085A0008A0D16 /* test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = test.c; sourceTree = "<group>"; };
+		FF0C676424A085A0008A0D16 /* library.properties */ = {isa = PBXFileReference; lastKnownFileType = text; path = library.properties; sourceTree = "<group>"; };
 		FF1268C7243EA4F500AAACE5 /* AESImpl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AESImpl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF1268CA243EA4F500AAACE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF1268CC243EA4F500AAACE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +43,9 @@
 		FF1268D3243EA4F700AAACE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF1268D6243EA4F700AAACE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF1268D8243EA4F700AAACE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF1268DE243F043300AAACE5 /* AESImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AESImpl.swift; sourceTree = "<group>"; };
+		FFC5EB59244415A400A975B8 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		FFC5EB5B2444171100A975B8 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FF0C675124A085A0008A0D16 /* tiny-AES-c-master */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C675224A085A0008A0D16 /* aes.c */,
+				FF0C675324A085A0008A0D16 /* aes.hpp */,
+				FF0C675424A085A0008A0D16 /* CMakeLists.txt */,
+				FF0C675524A085A0008A0D16 /* tiny-AES-c-master.xcodeproj */,
+				FF0C675824A085A0008A0D16 /* Makefile */,
+				FF0C675924A085A0008A0D16 /* test.cpp */,
+				FF0C675A24A085A0008A0D16 /* conanfile.py */,
+				FF0C675B24A085A0008A0D16 /* unlicense.txt */,
+				FF0C675C24A085A0008A0D16 /* README.md */,
+				FF0C675D24A085A0008A0D16 /* library.json */,
+				FF0C675E24A085A0008A0D16 /* .gitignore */,
+				FF0C675F24A085A0008A0D16 /* aes.h */,
+				FF0C676024A085A0008A0D16 /* test_package */,
+				FF0C676324A085A0008A0D16 /* test.c */,
+				FF0C676424A085A0008A0D16 /* library.properties */,
+			);
+			name = "tiny-AES-c-master";
+			path = "../../../../../Downloads/tiny-AES-c-master";
+			sourceTree = "<group>";
+		};
+		FF0C675624A085A0008A0D16 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF0C676024A085A0008A0D16 /* test_package */ = {
+			isa = PBXGroup;
+			children = (
+				FF0C676124A085A0008A0D16 /* CMakeLists.txt */,
+				FF0C676224A085A0008A0D16 /* conanfile.py */,
+			);
+			path = test_package;
+			sourceTree = "<group>";
+		};
 		FF1268BE243EA4F500AAACE5 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +117,7 @@
 		FF1268C9243EA4F500AAACE5 /* AESImpl */ = {
 			isa = PBXGroup;
 			children = (
+				FF0C675124A085A0008A0D16 /* tiny-AES-c-master */,
 				FF1268CA243EA4F500AAACE5 /* AppDelegate.swift */,
 				FF1268CC243EA4F500AAACE5 /* SceneDelegate.swift */,
 				FF1268CE243EA4F500AAACE5 /* ViewController.swift */,
@@ -63,6 +125,9 @@
 				FF1268D3243EA4F700AAACE5 /* Assets.xcassets */,
 				FF1268D5243EA4F700AAACE5 /* LaunchScreen.storyboard */,
 				FF1268D8243EA4F700AAACE5 /* Info.plist */,
+				FF1268DE243F043300AAACE5 /* AESImpl.swift */,
+				FFC5EB59244415A400A975B8 /* Matrix.swift */,
+				FFC5EB5B2444171100A975B8 /* Word.swift */,
 			);
 			path = AESImpl;
 			sourceTree = "<group>";
@@ -113,6 +178,12 @@
 			mainGroup = FF1268BE243EA4F500AAACE5;
 			productRefGroup = FF1268C8243EA4F500AAACE5 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FF0C675624A085A0008A0D16 /* Products */;
+					ProjectRef = FF0C675524A085A0008A0D16 /* tiny-AES-c-master.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FF1268C6243EA4F500AAACE5 /* AESImpl */,
@@ -141,6 +212,9 @@
 				FF1268CF243EA4F500AAACE5 /* ViewController.swift in Sources */,
 				FF1268CB243EA4F500AAACE5 /* AppDelegate.swift in Sources */,
 				FF1268CD243EA4F500AAACE5 /* SceneDelegate.swift in Sources */,
+				FFC5EB5A244415A400A975B8 /* Matrix.swift in Sources */,
+				FF1268DF243F043300AAACE5 /* AESImpl.swift in Sources */,
+				FFC5EB5C2444171100A975B8 /* Word.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +359,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QP6Q76LDMQ;
+				DEVELOPMENT_TEAM = 77R32Z5FGV;
 				INFOPLIST_FILE = AESImpl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -303,7 +377,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = QP6Q76LDMQ;
+				DEVELOPMENT_TEAM = 77R32Z5FGV;
 				INFOPLIST_FILE = AESImpl/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
